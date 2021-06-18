@@ -1,0 +1,124 @@
+.hei100 {
+    height: 55vh;
+}
+
+.sheet-4 {
+    position: absolute;
+    left: 0%;
+    top: 10%;
+}
+.img_sous{
+	position: relative;
+    background-size: cover;
+    background-position: center center;
+    width: 180px;
+    height: 295px;
+    border-radius: 45px;
+    margin-left: 24px;
+	box-shadow: -20px 0px LightGray;
+}
+
+@media screen and (max-width: 1100px) {
+    .p-descr {
+        margin-left: 20px;
+    }
+    .p-box {
+        width: 100vw;
+        height: 50vh;
+    }
+    
+    .product {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        padding-bottom: 10vh;
+        z-index: 10000;
+}
+    
+    .slide-right {
+    display: none;
+}
+    
+}
+
+@media screen and (max-width: 800px) {
+    .p-descr {
+        margin-left: 10px;
+        font-size: 20px;
+        width: 300px;
+    }
+    .p-box {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .slide-right {
+    display: none;
+}
+    
+    .p-img {
+        width: 200px;
+    }
+    
+    .product {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        padding-bottom: 15vh;
+        z-index: 10000;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+    .p-title {
+        text-align: center;
+    }
+    .p-descr {
+        margin-left: 10px;
+        font-size: 15px;
+        width: 300px;
+    }
+    .p-box {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .slide-right {
+    display: none;
+}
+    
+    .p-img {
+        width: 200px;
+        border-radius: 50px;
+    }
+
+    .sheet-3 {
+        display: none;
+    }
+    
+    .footer {
+        position: fixed;
+    }
+    
+    .sheet-4 {
+    position: fixed;
+    left: 0;
+    top: 50%;
+}
+    
+    .product {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        padding-bottom: 15vh;
+        z-index: 10000;
+}
+
+}
